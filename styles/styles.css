@@ -33,6 +33,10 @@
   color: #fff;
 }
 
+.articleImage {
+  width: 800rem;
+}
+
 li {
   padding: 0.95rem;
 }
