@@ -37,8 +37,14 @@
   width: 50rem;
 }
 
-li {
-  padding: 0.95rem;
+li,
+ul,
+ol,
+dt,
+dd {
+  padding: 0.15rem;
+  font-family: "Playfair Display", serif;
+  color: var(--slate);
 }
 
 .center {
@@ -54,8 +60,6 @@ h3 {
 }
 
 p,
-dl,
-dt,
 ul,
 ol,
 a {
