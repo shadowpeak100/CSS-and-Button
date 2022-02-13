@@ -20,21 +20,9 @@
   text-transform: uppercase;
   transition: background-color 0.2s ease 0s, color 0.2s ease 0s,
     border-color 0.2s ease 0s, opacity 0.2s ease 0s;
-}
-
-.button {
-  border: 1px solid #000;
-  border-radius: 0.1875rem;
-  font-size: 0.9375rem;
-  line-height: 1.3125rem;
-  font-weight: 700;
-  padding: 0.75rem 1.25rem 0.625rem;
-  text-align: center;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease 0s, color 0.2s ease 0s,
-    border-color 0.2s ease 0s, opacity 0.2s ease 0s;
   position: inline;
   color: var(--jetskyblue);
+  margin: 3rem;
 }
 
 .button:hover,
@@ -46,7 +34,7 @@
 }
 
 li {
-  padding: 0.65rem;
+  padding: 0.95rem;
 }
 
 .center {
@@ -69,6 +57,7 @@ ol,
 a {
   font-family: "Playfair Display", serif;
   color: var(--slate);
+  margin: 2rem;
 }
 
 a:hover {
