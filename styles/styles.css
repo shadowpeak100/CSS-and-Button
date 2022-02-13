@@ -1,0 +1,99 @@
+:root {
+  --jetskyblue: #145894;
+  --slate: #222222;
+  --darkjetblue: #0a2136;
+  --crimson: #6d0000;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.button {
+  border: 1px solid #000;
+  border-radius: 0.1875rem;
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
+  font-weight: 700;
+  padding: 0.75rem 1.25rem 0.625rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease 0s, color 0.2s ease 0s,
+    border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+}
+
+.button {
+  border: 1px solid #000;
+  border-radius: 0.1875rem;
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
+  font-weight: 700;
+  padding: 0.75rem 1.25rem 0.625rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease 0s, color 0.2s ease 0s,
+    border-color 0.2s ease 0s, opacity 0.2s ease 0s;
+  position: inline;
+  color: var(--jetskyblue);
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: var(--jetskyblue);
+  border-color: #000;
+  color: #fff;
+}
+
+li {
+  padding: 0.65rem;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Tinos", serif;
+  color: var(--darkjetblue);
+}
+
+p,
+dl,
+dt,
+ul,
+ol,
+a {
+  font-family: "Playfair Display", serif;
+  color: var(--slate);
+}
+
+a:hover {
+  color: var(--crimson);
+}
+
+.blackline {
+  stroke: black;
+  stroke-width: 3;
+}
+
+.blueline {
+  stroke: navy;
+  stroke-width: 3;
+}
+
+.deadCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 50rem;
+}
